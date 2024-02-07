@@ -13,19 +13,19 @@
 -------------------*/
 
 header { 
-     height: 100px;
+     height: 80px;
      display: flex;
      justify-content: end;
      position: relative;
 }
 
 main {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 160px);
     overflow: auto;
 }
 
 footer {
-    height: 100px;
+    height: 80px;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
 .btn_utilities {
     background-color:#4a4a4a;
     color: white;
-    padding: 6px;
+    padding: 4px;
     margin-left: 6px;
     border-radius: 6px;
     border: none;
@@ -90,7 +90,39 @@ img{
     
 footer { 
     background-color: #222222;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
+footer > section {  
+    padding: 10px;
+    line-height: 50px;
+}
+
+footer button {
+    background-color: inherit;
+    border: none;
+    color: white;
+    padding: 10px;   
+}
+
+.arrow {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    background-color: inherit;
+    border: none;
+    color: white;
+}
+
+.end_call {
+    background-color: #4a4a4a;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.fa-share-from-square {
+    color: #4bc800;
+}
