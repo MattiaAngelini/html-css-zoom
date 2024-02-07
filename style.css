@@ -94,7 +94,7 @@ footer {
 }
 
 footer > section {  
-    padding: 10px;
+    padding: 5px;
     line-height: 50px;
 }
 
@@ -102,7 +102,8 @@ footer button {
     background-color: inherit;
     border: none;
     color: white;
-    padding: 10px;   
+    padding: 10px;  
+    font-size: 15px; 
 }
 
 .arrow {
@@ -112,17 +113,20 @@ footer button {
     background-color: inherit;
     border: none;
     color: white;
+    font-size: 8px;
 }
 
 .end_call {
     background-color: #4a4a4a;
-    color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-
 }
+
+.end_call button {
+    color: red;
+    padding: 10px;}
+
 .fa-share-from-square {
     color: #4bc800;
 }
