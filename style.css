@@ -22,13 +22,14 @@ header {
 main {
     height: calc(100vh - 200px);
     overflow: auto;
+    
 }
 
 footer {
     height: 100px;
 }
 
-header, footer {
+body {
     background-color: black;
 }
 
@@ -36,6 +37,22 @@ header, footer {
       GRID LAYOUT
 -------------------*/
 
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}  
+
+img {width: 250px;
+     height: 150px;
+     padding: 6px;
+}
 
 
 /*-------------------
