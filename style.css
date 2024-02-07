@@ -8,3 +8,23 @@
     box-sizing: border-box;
  }
 
+/*-------------------
+       GENERAL
+-------------------*/
+
+header { 
+     height: 100px;
+}
+
+main {
+    height: calc(100vh - 200px);
+    overflow: auto;
+}
+
+footer {
+    height: 100px;
+}
+
+header, footer {
+    background-color: black;
+}
